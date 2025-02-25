@@ -2,6 +2,7 @@
   "name": "react-website",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://edo98811.github.io/react-website",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
