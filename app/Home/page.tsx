@@ -1,7 +1,5 @@
-
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "../page";  // Your main page
-import CVPage from "../CV/page"; // Your new CV page
+// import Home from "../page";  // Your main page
+//import CVPage from "../CV/page"; // Your new CV page
 
 export default function App() {
   return (
