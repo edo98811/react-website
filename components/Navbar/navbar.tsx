@@ -17,21 +17,12 @@ const Navbar = () => {
         <Link href="/CV">cv</Link>
       </li>
       <li>
-        <Link href="/Home">Home</Link>
+        <Link href="/">Home</Link>
       </li>
       <li>
-        <Link href="/affiliations">Affiliations</Link>
+        <Link href="/Contacts">Contacts</Link>
       </li>
     </ul>
-  </div>
-  <div className="navbar-right">
-    <a href="/cart" className="cart-icon">
-      <i className="fas fa-shopping-cart"></i>
-      <span className="cart-count">0</span>
-    </a>
-    <a href="/account" className="user-icon">
-      <i className="fas fa-user"></i>
-    </a>
   </div>
 </nav>
 );
