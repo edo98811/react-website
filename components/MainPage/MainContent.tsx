@@ -1,4 +1,5 @@
 import React from "react";
+import Image from 'next/image';
 import './MainContent.css'; // Import the CSS file
 
 const MainContent = () => {
@@ -11,14 +12,13 @@ const MainContent = () => {
             
           </p>
         </div>
-  
-        <div className="image-container">
-          <img
-            src="./src/test.jpg" // Replace with your image URL
-            alt="profile"
-            className="image"
-          />
-        </div>
+        <Image
+          src="/images/image.jpg"
+          className="image"
+          alt="Myself"
+          width={500} // specify the width
+          height={500} // specify the height
+        />
       </div>
     );
   };
